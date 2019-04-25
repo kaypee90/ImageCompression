@@ -22,6 +22,9 @@
             //This line compress the file and return the bytes array
             var tinyPngHelper = new TinyPngHelper();
             var compressedImage = await tinyPngHelper.CompressImage(viewModel.FormFile);
+
+            // Gzip Compress further
+            var gzipCompressedImage = tinyPngHelper.GzipImage(compressedImage);
             return View();
         }
 
