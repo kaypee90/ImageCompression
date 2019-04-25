@@ -10,7 +10,7 @@ namespace TinyPngProject.Helpers
 
     public class TinyPngHelper
     {
-        private const string TinifyApiKey = "uhMucYrcKkLoU4mfXnK6XIMwdGYIJWbv"; // "PROVIDE YOUR TINIFY API KEY HERE";
+        private const string TinifyApiKey = "PROVIDE YOUR TINIFY API KEY HERE";
         public TinyPngHelper(){
             SetTinifyApiKey();
         }
