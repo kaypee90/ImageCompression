@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  image-compressor-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
